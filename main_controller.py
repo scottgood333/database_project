@@ -7,7 +7,7 @@ import psycopg2
 # connect to  database
 connection = psycopg2.connect(database="health_insurance_hospitals",
                               user="postgres",
-                              password="wu8313497",
+                              password="123456",
                               host="localhost",
                               port="5432")
 connection.autocommit = True
